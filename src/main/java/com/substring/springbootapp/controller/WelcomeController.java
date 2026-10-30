@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class WelcomeController {
     @GetMapping
     public ResponseEntity<String> welcome() {
-        return ResponseEntity.ok("Welcome to Spring Boot App");
+        return ResponseEntity.ok("Welcome to the heart of pratik but sorry you will find yourself only here ");
     }
 }
